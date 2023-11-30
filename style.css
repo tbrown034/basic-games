@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(29, 64, 97);
+  color: white;
+}
+
+header {
+  text-align: center;
+}
+
+button {
+  padding: 4px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#choose-container {
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid whitesmoke;
+  padding: 16px;
+}
+
+#game-container {
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid whitesmoke;
+  padding: 16px;
+  background-color: darkgreen;
+}
