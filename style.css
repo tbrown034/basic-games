@@ -25,9 +25,18 @@ main {
 }
 
 #game-container {
-  display: flex;
+  display: none;
+  flex-direction: column;
+  gap: 4px;
   justify-content: space-around;
   border: 2px solid whitesmoke;
   padding: 16px;
   background-color: darkgreen;
+}
+
+#game-screen {
+  background-color: rgb(7, 43, 7);
+  min-height: 400px;
+  display: flex;
+  padding: 10px;
 }
